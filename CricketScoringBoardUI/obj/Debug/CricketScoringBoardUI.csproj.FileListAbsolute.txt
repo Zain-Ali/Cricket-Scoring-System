@@ -1,0 +1,8 @@
+E:\Cricket Scoring System\CricketScoringBoardUI\bin\Debug\CricketScoringBoardUI.dll.config
+E:\Cricket Scoring System\CricketScoringBoardUI\bin\Debug\CricketScoringBoardUI.dll
+E:\Cricket Scoring System\CricketScoringBoardUI\bin\Debug\CricketScoringBoardUI.pdb
+E:\Cricket Scoring System\CricketScoringBoardUI\obj\Debug\Cricket_Scoreing_System.scoringSystem.resources
+E:\Cricket Scoring System\CricketScoringBoardUI\obj\Debug\CricketScoringBoardUI.Properties.Resources.resources
+E:\Cricket Scoring System\CricketScoringBoardUI\obj\Debug\CricketScoringBoardUI.csproj.GenerateResource.Cache
+E:\Cricket Scoring System\CricketScoringBoardUI\obj\Debug\CricketScoringBoardUI.dll
+E:\Cricket Scoring System\CricketScoringBoardUI\obj\Debug\CricketScoringBoardUI.pdb

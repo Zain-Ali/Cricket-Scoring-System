@@ -7,3 +7,6 @@ c:\users\zain_ali\documents\visual studio 2013\Projects\Cricket Scoreing System\
 c:\users\zain_ali\documents\visual studio 2013\Projects\Cricket Scoreing System\Cricket Scoreing System\obj\Debug\Cricket Scoring System.csproj.GenerateResource.Cache
 c:\users\zain_ali\documents\visual studio 2013\Projects\Cricket Scoreing System\Cricket Scoreing System\obj\Debug\Cricket Scoreing System.exe
 c:\users\zain_ali\documents\visual studio 2013\Projects\Cricket Scoreing System\Cricket Scoreing System\obj\Debug\Cricket Scoreing System.pdb
+E:\Cricket Scoring System\Cricket Scoreing System\obj\Debug\Cricket Scoring System.csprojResolveAssemblyReference.cache
+E:\Cricket Scoring System\Cricket Scoreing System\obj\Debug\Cricket_Scoreing_System.Properties.Resources.resources
+E:\Cricket Scoring System\Cricket Scoreing System\obj\Debug\Cricket Scoring System.csproj.GenerateResource.Cache
