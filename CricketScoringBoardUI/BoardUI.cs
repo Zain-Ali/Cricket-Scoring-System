@@ -24,6 +24,7 @@ namespace Cricket_Scoreing_System
         {
             count++;
             wideBallLabel.Text = count.ToString();
+            wideBallLabel.Text = wideBallLabel.Text;
         }
 
         private void wideBallLabel_Click(object sender, EventArgs e)
