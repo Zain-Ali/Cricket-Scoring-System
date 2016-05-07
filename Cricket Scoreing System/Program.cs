@@ -16,7 +16,8 @@ namespace Cricket_Scoreing_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BoardUI());
+            Application.Run(new scoringSystem());
+            //Application.Run(new BoardUI());
             Console.WriteLine("Test");
             Console.Read();
         }
