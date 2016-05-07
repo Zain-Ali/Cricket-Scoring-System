@@ -20,35 +20,9 @@ namespace Cricket_Scoreing_System
             InitializeComponent();
         }
 
-        private void wideBall_Click(object sender, EventArgs e)
-        {
-            count++;
-            wideBallLabel.Text = count.ToString();
-            wideBallLabel.Text = wideBallLabel.Text;
-        }
 
-        private void wideBallLabel_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void noBall_Click(object sender, EventArgs e)
-        {
-            //count++;
-            //noBallLabel.Text = count.ToString();
-            int counter = int.Parse(wideBallLabel.Text);
-            counter++;
-            wideBallLabel.Text = counter.ToString();
-
-            
-        }
-
-        private void noBallLabel_Click(object sender, EventArgs e)
-        {
-        }
         private void scoringSystem_Load(object sender, EventArgs e)
-        {
-
-        }
+        {}
 
         private void addPlayer_Click(object sender, EventArgs e)
         {
@@ -65,22 +39,11 @@ namespace Cricket_Scoreing_System
 
         private void addPlayer_Click_1(object sender, EventArgs e)
         {
-            //Label
-            //Label playerLabel = new Label();
-            //playerLabel.Text = " ";
-
-            //Point labelPosition = new Point(playerLabel.Location.X + playerLabel.Width + 30, playerLabel.Location.Y);
-            //playerLabel.Location = labelPosition;
-
-            //this.Controls.Add(playerLabel);
-            //playerCounter++;
-
-
             //Adding TextBox
             TextBox playerBox = new TextBox();
             playerBox.Text = " ";
 
-            Point textBoxPosition = new Point(50 + playerCounter, 30 * playerCounter);
+            Point textBoxPosition = new Point(20 + playerCounter, 55 * playerCounter);
             playerBox.Location = textBoxPosition;
 
             this.Controls.Add(playerBox);
@@ -97,16 +60,21 @@ namespace Cricket_Scoreing_System
 
             this.Controls.Add(playerCheckBox);
             playerCounter++;
-
-
         }
+
 
         private void wideBall_Click_1(object sender, EventArgs e)
         {
-
+            count = int.Parse(wideBallLabel.Text);
+            count++;
+            wideBallLabel.Text = count.ToString();
         }
 
-
-
+        private void noBall_Click_1(object sender, EventArgs e)
+        {
+            count = int.Parse(noBallLabel.Text);
+            count++;
+            noBallLabel.Text = count.ToString();
+        }
     }
 }
