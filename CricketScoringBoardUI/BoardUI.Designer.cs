@@ -33,10 +33,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.noBallLabel = new System.Windows.Forms.Label();
-            this.wideBallLabel = new System.Windows.Forms.Label();
-            this.noBall = new System.Windows.Forms.Button();
             this.wideBall = new System.Windows.Forms.Button();
+            this.noBall = new System.Windows.Forms.Button();
+            this.wideBallLabel = new System.Windows.Forms.Label();
+            this.noBallLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -44,13 +44,14 @@
             // 
             // addPlayer
             // 
+            this.addPlayer.BackColor = System.Drawing.Color.Transparent;
             this.addPlayer.Location = new System.Drawing.Point(173, 139);
             this.addPlayer.Margin = new System.Windows.Forms.Padding(2);
             this.addPlayer.Name = "addPlayer";
             this.addPlayer.Size = new System.Drawing.Size(80, 25);
             this.addPlayer.TabIndex = 9;
             this.addPlayer.Text = "Add Player";
-            this.addPlayer.UseVisualStyleBackColor = true;
+            this.addPlayer.UseVisualStyleBackColor = false;
             this.addPlayer.Click += new System.EventHandler(this.addPlayer_Click_1);
             // 
             // CricketScoringBoardLabel
@@ -77,13 +78,14 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(581, 529);
+            this.tabPage1.Size = new System.Drawing.Size(686, 560);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "2nd Innings";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Transparent;
             this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Controls.Add(this.addPlayer);
             this.tabPage2.Controls.Add(this.wideBall);
@@ -96,27 +98,17 @@
             this.tabPage2.Size = new System.Drawing.Size(686, 560);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "1st Innings";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // noBallLabel
+            // wideBall
             // 
-            this.noBallLabel.AutoSize = true;
-            this.noBallLabel.Location = new System.Drawing.Point(387, 245);
-            this.noBallLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.noBallLabel.Name = "noBallLabel";
-            this.noBallLabel.Size = new System.Drawing.Size(13, 13);
-            this.noBallLabel.TabIndex = 8;
-            this.noBallLabel.Text = "0";
-            // 
-            // wideBallLabel
-            // 
-            this.wideBallLabel.AutoSize = true;
-            this.wideBallLabel.Location = new System.Drawing.Point(387, 184);
-            this.wideBallLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.wideBallLabel.Name = "wideBallLabel";
-            this.wideBallLabel.Size = new System.Drawing.Size(13, 13);
-            this.wideBallLabel.TabIndex = 7;
-            this.wideBallLabel.Text = "0";
+            this.wideBall.Location = new System.Drawing.Point(306, 178);
+            this.wideBall.Margin = new System.Windows.Forms.Padding(2);
+            this.wideBall.Name = "wideBall";
+            this.wideBall.Size = new System.Drawing.Size(69, 24);
+            this.wideBall.TabIndex = 5;
+            this.wideBall.Text = "Wide Ball";
+            this.wideBall.UseVisualStyleBackColor = true;
+            this.wideBall.Click += new System.EventHandler(this.wideBall_Click_1);
             // 
             // noBall
             // 
@@ -129,16 +121,25 @@
             this.noBall.UseVisualStyleBackColor = true;
             this.noBall.Click += new System.EventHandler(this.noBall_Click_1);
             // 
-            // wideBall
+            // wideBallLabel
             // 
-            this.wideBall.Location = new System.Drawing.Point(306, 178);
-            this.wideBall.Margin = new System.Windows.Forms.Padding(2);
-            this.wideBall.Name = "wideBall";
-            this.wideBall.Size = new System.Drawing.Size(69, 24);
-            this.wideBall.TabIndex = 5;
-            this.wideBall.Text = "Wide Ball";
-            this.wideBall.UseVisualStyleBackColor = true;
-            this.wideBall.Click += new System.EventHandler(this.wideBall_Click_1);
+            this.wideBallLabel.AutoSize = true;
+            this.wideBallLabel.Location = new System.Drawing.Point(387, 184);
+            this.wideBallLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.wideBallLabel.Name = "wideBallLabel";
+            this.wideBallLabel.Size = new System.Drawing.Size(13, 13);
+            this.wideBallLabel.TabIndex = 7;
+            this.wideBallLabel.Text = "0";
+            // 
+            // noBallLabel
+            // 
+            this.noBallLabel.AutoSize = true;
+            this.noBallLabel.Location = new System.Drawing.Point(387, 245);
+            this.noBallLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.noBallLabel.Name = "noBallLabel";
+            this.noBallLabel.Size = new System.Drawing.Size(13, 13);
+            this.noBallLabel.TabIndex = 8;
+            this.noBallLabel.Text = "0";
             // 
             // tabControl1
             // 

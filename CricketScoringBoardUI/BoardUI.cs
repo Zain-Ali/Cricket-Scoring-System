@@ -41,10 +41,11 @@ namespace Cricket_Scoreing_System
         {
             //Adding TextBox
             TextBox playerBox = new TextBox();
-            playerBox.Text = " ";
+           // playerBox.Text = " ";
 
             Point textBoxPosition = new Point(20 + playerCounter, 55 * playerCounter);
             playerBox.Location = textBoxPosition;
+            
 
             this.Controls.Add(playerBox);
             playerCounter++;

@@ -58,4 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="League.sql" />
+    <Build Include="Teams.sql" />
+  </ItemGroup>
 </Project>
